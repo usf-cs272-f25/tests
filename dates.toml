@@ -1,0 +1,33 @@
+[lab02]
+
+[[lab02.dates]]
+suffix = "due"
+date = "2025-08-26"
+percentage = 1.0
+
+[[lab02.dates]]
+suffix = "late1wk"
+date = "2025-09-02"
+percentage = 0.75
+
+[[lab02.dates]]
+suffix = "super-late"
+date = "2025-12-03"
+percentage = 0.5
+
+[project01]
+
+[[project01.dates]]
+suffix = "due"
+date = "2025-09-03"
+percentage = 1.0
+
+[[project01.dates]]
+suffix = "late1wk"
+date = "2025-09-09"
+percentage = 0.75
+
+[[project01.dates]]
+suffix = "super-late"
+date = "2025-12-03"
+percentage = 0.5
