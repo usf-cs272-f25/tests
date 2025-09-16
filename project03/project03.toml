@@ -1,0 +1,44 @@
+[project]
+build = "go"
+
+[[tests]]
+name = "TestExtract"
+input = ['go', 'test', '-run', '$name', '-json']
+expected = "pass"
+rubric = 5
+
+[[tests]]
+name = "TestCleanHref"
+input = ['go', 'test', '-run', '$name', '-json']
+expected = "pass"
+rubric = 5
+
+[[tests]]
+name = "TestDownload"
+input = ['go', 'test', '-run', '$name', '-json']
+expected = "pass"
+rubric = 5
+
+[[tests]]
+name = "TestCrawl"
+input = ['go', 'test', '-run', '$name', '-json']
+expected = "pass"
+rubric = 5
+
+[[tests]]
+name = "TestSearch"
+input = ['go', 'test', '-run', '$name', '-json']
+expected = "pass"
+rubric = 5
+
+[[tests]]
+name = "TestStop"
+input = ['go', 'test', '-run', '$name', '-json']
+expected = "pass"
+rubric = 10
+
+[[tests]]
+name = "TestTfIdf"
+input = ['go', 'test', '-run', '$name', '-json']
+expected = "pass"
+rubric = 10
