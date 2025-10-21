@@ -1,0 +1,8 @@
+[project]
+build = "go"
+
+[[tests]]
+name = "TestTfIdf"
+input = ['go', 'test', '-run', '$name', '-json']
+expected = "pass"
+rubric = 40
