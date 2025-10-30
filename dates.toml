@@ -101,11 +101,32 @@ date = "2025-12-03"
 percentage = 0.5
 
 [[project04.dates]]
+suffix = "due"
+date = "2025-10-21"
+percentage = 1.0
+
+[[project04.dates]]
 suffix = "late5d"
-date = "2025-10-28"
+date = "2025-10-26"
 percentage = 0.75
 
 [[project04.dates]]
 suffix = "super-late"
 date = "2025-12-03"
 percentage = 0.5
+
+[[project05.dates]]
+suffix = "due"
+date = "2025-11-05"
+percentage = 1.0
+
+[[project05.dates]]
+suffix = "late5d"
+date = "2025-11-10"
+percentage = 0.75
+
+[[project05.dates]]
+suffix = "super-late"
+date = "2025-12-03"
+percentage = 0.5
+
