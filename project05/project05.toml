@@ -3,31 +3,31 @@ build = "go"
 
 [[tests]]
 name = "TestPhil"
-input = ['go', 'test', '-run', '$name', '-json']
+input = ['go', 'test', '-run', 'Project05/$name', '-json']
 expected = "pass"
 rubric = 10
 
 [[tests]]
 name = "TestPHIL"
-input = ['go', 'test', '-run', '$name', '-json']
+input = ['go', 'test', '-run', 'Project05/$name', '-json']
 expected = "pass"
 rubric = 10
 
 [[tests]]
 name = "TestBio"
-input = ['go', 'test', '-run', '$name', '-json']
+input = ['go', 'test', '-run', 'Project05/$name', '-json']
 expected = "pass"
 rubric = 10
 
 [[tests]]
 name = "TestGuitar"
-input = ['go', 'test', '-run', '$name', '-json']
+input = ['go', 'test', '-run', 'Project05/$name', '-json']
 expected = "pass"
 rubric = 10
 
 [[tests]]
 name = "TestMultiple"
-input = ['go', 'test', '-run', '$name', '-json']
+input = ['go', 'test', '-run', 'Project05/$name', '-json']
 expected = "pass"
 rubric = 10
 
