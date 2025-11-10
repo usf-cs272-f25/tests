@@ -1,0 +1,34 @@
+[project]
+build = "go"
+timeout = 120
+
+[[tests]]
+name = "TestPhil"
+input = ['go', 'test', '-run', 'Lab07/$name', '-json']
+expected = "pass"
+rubric = 10
+
+[[tests]]
+name = "TestPHIL"
+input = ['go', 'test', '-run', 'Lab07/$name', '-json']
+expected = "pass"
+rubric = 10
+
+[[tests]]
+name = "TestBio"
+input = ['go', 'test', '-run', 'Lab07/$name', '-json']
+expected = "pass"
+rubric = 10
+
+[[tests]]
+name = "TestGuitar"
+input = ['go', 'test', '-run', 'Lab07/$name', '-json']
+expected = "pass"
+rubric = 10
+
+[[tests]]
+name = "TestMultiple"
+input = ['go', 'test', '-run', 'Lab07/$name', '-json']
+expected = "pass"
+rubric = 10
+
