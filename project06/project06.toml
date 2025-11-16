@@ -1,0 +1,27 @@
+[project]
+build = "go"
+timeout = 600
+
+[[tests]]
+name = "TestCS272"
+input = ['go', 'test', '-run', 'Project06/$name', '-json']
+expected = "pass"
+rubric = 12
+
+[[tests]]
+name = "TestPhilGreg"
+input = ['go', 'test', '-run', 'Project06/$name', '-json']
+expected = "pass"
+rubric = 12
+
+[[tests]]
+name = "TestHR148"
+input = ['go', 'test', '-run', 'Project06/$name', '-json']
+expected = "pass"
+rubric = 12
+
+[[tests]]
+name = "TestKHall"
+input = ['go', 'test', '-run', 'Project06/$name', '-json']
+expected = "pass"
+rubric = 12
